@@ -1,0 +1,59 @@
+/*Configuração Geral*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Div principal para centralização*/
+#Tudão{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+/*Div para centralização da imagem*/
+#cIMG{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*Conteúdo principal*/
+#main{
+    text-align: justify;
+}
+p{
+    margin-top: 3vh;
+    max-width: 50vw;
+}
+/*Copyright e configurações da imagem quebrada*/
+#firula{
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+img{
+    margin-left: 20vw;
+}
+
+
+
+
+
+/*Rsponsividade*/
+@media screen and (max-width: 800px) {
+    #Tudão{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        margin: 0;
+        margin-top: 10vh;
+    }
+    #firula{
+        margin: 0;
+        margin-top: 3vh;
+        margin-bottom: 10vh;
+    }
+    #main{
+        text-align: justify;
+    }
+}
